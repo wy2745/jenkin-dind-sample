@@ -1,0 +1,4 @@
+FROM java:latest
+COPY jenkins-dind-test-1.0-SNAPSHOT.jar /home
+
+CMD java -jar /home/jenkins-dind-test-1.0-SNAPSHOT.jar
